@@ -1,0 +1,38 @@
+baseURL: "https://Yuzhe2005.github.io/"
+languageCode: "zh-CN"
+title: "Your Name"
+theme: "PaperMod"
+
+aches:
+  images:
+    dir: :cacheDir/images
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+taxonomies:
+  tag: tags
+
+menu:
+  main:
+    - name: Profile
+      url: /page/profile/
+      weight: 1
+    - name: Blog
+      url: /posts/
+      weight: 2
+    - name: Archive
+      url: /archives/
+      weight: 3
+    - name: Search
+      url: /search/
+      weight: 4
+    - name: Tags
+      url: /tags/
+      weight: 5
+    - name: FAQ
+      url: /page/faq/
+      weight: 6
