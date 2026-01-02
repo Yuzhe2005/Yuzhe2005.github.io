@@ -1,11 +1,14 @@
 baseURL: "https://Yuzhe2005.github.io/"
 languageCode: "zh-CN"
-title: "Your Name"
+title: "Yuzhe (David) Wang"
 theme: "PaperMod"
 
-aches:
-  images:
-    dir: :cacheDir/images
+params:
+  socialIcons:
+    - name: github
+      url: "https://github.com/Yuzhe2005"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/yuzhe-wang"
 
 outputs:
   home:
@@ -21,18 +24,6 @@ menu:
     - name: Profile
       url: /page/profile/
       weight: 1
-    - name: Blog
-      url: /posts/
+    - name: Publications
+      url: /page/publications/
       weight: 2
-    - name: Archive
-      url: /archives/
-      weight: 3
-    - name: Search
-      url: /search/
-      weight: 4
-    - name: Tags
-      url: /tags/
-      weight: 5
-    - name: FAQ
-      url: /page/faq/
-      weight: 6

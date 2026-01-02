@@ -1,0 +1,11 @@
+{{- $socialIcons := site.Params.socialIcons -}}
+{{- if $socialIcons }}
+<div class="social-icons" style="display: flex; gap: 15px; margin: 20px 0;">
+  {{- range $socialIcons }}
+  <a href="{{ trim .url " " | safeURL }}" target="_blank" rel="noopener noreferrer me" title="{{ (.title | default .name) | title }}" style="display: inline-flex; padding: 10px; border: none !important; outline: none; box-shadow: none;">
+    {{ partial "svg.html" . }}
+  </a>
+  {{- end }}
+</div>
+{{- end }}
+
