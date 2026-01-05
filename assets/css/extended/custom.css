@@ -41,6 +41,32 @@ h3,
   letter-spacing: -0.01em;
 }
 
+.profile-name {
+  margin-bottom: 6px;
+}
+
+.profile-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 10px 0 12px;
+}
+
+.profile-hero-text {
+  flex: 1;
+}
+
+.profile-subtitle {
+  margin-top: 4px;
+}
+
+.profile-hero-photo {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
 a {
   color: var(--accent);
 }
@@ -94,6 +120,15 @@ a:hover {
 
 .profile .buttons {
   gap: 10px;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 3px solid #ffffff;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.18);
 }
 
 .profile .button {
@@ -250,6 +285,16 @@ a:hover {
 }
 
 @media (max-width: 900px) {
+  .profile-hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile-hero-photo {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
   .highlight-grid {
     grid-template-columns: 1fr;
   }

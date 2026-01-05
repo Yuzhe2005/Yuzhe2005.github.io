@@ -2,10 +2,20 @@
 title: "Profile"
 ---
 
-# Yuzhe (David) Wang
-
-ECE undergraduate at Carnegie Mellon University  
-Email: yuzhew@andrew.cmu.edu
+{{< rawhtml >}}
+<div class="profile-hero">
+  <div class="profile-hero-text">
+    <h1 class="profile-name">Yuzhe (David) Wang</h1>
+    <div class="profile-subtitle">
+      ECE undergraduate at Carnegie Mellon University<br />
+      Email: yuzhew@andrew.cmu.edu
+    </div>
+  </div>
+  <div class="profile-hero-photo">
+    <img class="profile-photo" src="/images/profile.jpg" alt="Yuzhe (David) Wang" />
+  </div>
+</div>
+{{< /rawhtml >}}
 
 {{< social_icons >}}
 
