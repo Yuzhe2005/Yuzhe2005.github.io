@@ -4,6 +4,16 @@ title: "Yuzhe (David) Wang"
 theme: "PaperMod"
 
 params:
+  env: production
+  description: "Personal site for Yuzhe (David) Wang, ECE undergraduate at Carnegie Mellon University."
+  defaultTheme: light
+  disableThemeToggle: false
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  profileMode:
+    enabled: false
   socialIcons:
     - name: github
       url: "https://github.com/Yuzhe2005"
@@ -21,7 +31,7 @@ taxonomies:
 
 menu:
   main:
-    - name: Profile
+    - name: About
       url: /page/profile/
       weight: 1
     - name: Publications
